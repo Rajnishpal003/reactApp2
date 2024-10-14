@@ -230,7 +230,6 @@ const Keypad = () => {
                 <tr>
                   <td
                     className="keypad"
-                    colSpan="3"
                     onClick={Del}
                     style={{
                       background: "#EE534F",
@@ -238,13 +237,12 @@ const Keypad = () => {
                   >
                     CLR
                   </td>
-                  <td className="keypad" colSpan="3" onClick={() => input("0")}>
+                  <td className="keypad" onClick={() => input("0")}>
                     0
                   </td>
 
                   <td
                     className="keypad"
-                    colSpan="3"
                     onClick={Submit}
                     style={{
                       background: "#398E3D",

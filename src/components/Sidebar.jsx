@@ -1,10 +1,11 @@
+// src/components/Sidebar.js
 import React from "react";
-import { Link } from "react-router-dom"; // Import Link for navigation
+import { Link } from "react-router-dom";
 import { Grid, FileText, Key, LogOut } from "lucide-react";
-import "../assets/Sidebar.css"; // Import the CSS file
+import "../assets/Sidebar.css"; // Ensure the CSS file is correct
 
 const menuItems = [
-  { icon: Grid, label: "Draw", path: "/" }, // Add paths for other items as needed
+  { icon: Grid, label: "Draw", path: "/" },
   { icon: FileText, label: "Report", path: "/ReportForm" },
   { icon: FileText, label: "Ledger", path: "/ledger" },
   { icon: Key, label: "Password", path: "/password" },
@@ -20,8 +21,6 @@ const Sidebar = ({ isSidebarOpen }) => {
           {menuItems.map((item, index) => (
             <li key={index} className="sidebar-item">
               <Link to={item.path} className="sidebar-link">
-                {" "}
-                {/* Use Link instead of anchor tag */}
                 <item.icon className="icon" />
                 <span>{item.label}</span>
               </Link>
@@ -32,4 +31,5 @@ const Sidebar = ({ isSidebarOpen }) => {
     </aside>
   );
 };
+
 export default Sidebar;
