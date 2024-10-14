@@ -1,0 +1,201 @@
+/* Container Styles */
+.md-card-content {
+  position: relative;
+  color: #f3eded;
+}
+
+/* Button Styles */
+.md-btn {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  min-height: 28px;
+  background: #424242;
+  color: #ffffff;
+}
+
+.md-btn-danger {
+  background: #424242;
+  color: #ffffff;
+}
+
+.md-btn-danger.md-btn-wave-light {
+  background: #424242;
+  color: #ffffff;
+}
+
+.md-btn:hover {
+  background: #555555;
+}
+
+/* Select Styles */
+#type {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  margin-top: 92px;
+  min-height: 31px;
+  width: 110px;
+  background: #daa520;
+  color: #ffffff;
+  text-transform: uppercase;
+  font: 500 16px/31px Roboto, sans-serif !important;
+  text-align: center;
+}
+
+/* Heading Styles */
+.heading_a {
+  text-align: center;
+  color: #fff;
+  font-family: Exo, sans-serif;
+  font-size: 1.3em;
+  padding-top: 10px;
+}
+
+.heading_a small {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Timer Styles */
+#demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#demo .hours, #demo .min, #demo .second {
+  font-size: 1.3em;
+  padding: 0 5px;
+}
+
+.blink_black {
+  animation: blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+      opacity: 0;
+  }
+}
+
+/* Keypad Styles */
+.inputnumber, .inputamount {
+  font-size: 1.5em;
+  width: 100%;
+  height: 40px;
+  font-family: Exo, sans-serif;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 900;
+}
+
+
+.keypad {
+  background: #424242;
+  height: 67px;
+  width: 67px;
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  border: 1px solid #DAA520;
+  border-radius: 4px;
+  font-family: Exo, sans-serif;
+  box-shadow: 3px 3px #DAA520;
+  cursor: pointer;
+
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  unicode-bidi: isolate;
+  border-color: inherit;
+}
+td {
+  display: table-cell;
+  vertical-align: inherit;
+  unicode-bidi: isolate;
+}
+
+.keypad:hover {
+  background: #555555;
+}
+
+.keypad:active {
+  background: #777777;
+}
+
+/* Clear and OK Button Styles */
+#input1 {
+  background: #EE534F;
+  height: 67px;
+  width: 67px;
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  border: 1px solid #DAA520;
+  border-radius: 4px;
+  font-family: Exo, sans-serif;
+  box-shadow: 3px 3px #DAA520;
+  cursor: pointer;
+}
+
+#input1:hover {
+  background: #FF6666;
+}
+
+#input1:active {
+  background: #FF7777;
+}
+
+/* Table Styles */
+.uk-table {
+  color: #fff;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.uk-table th, .uk-table td {
+  padding: 10px;
+  
+  text-align: center;
+}
+
+/* Delete All Button Styles */
+button {
+
+
+  text-rendering: auto;
+  color: buttontext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  
+  box-sizing: border-box;
+  
+  margin: 0em;
+  padding-block: 1px;
+  padding-inline: 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+  outline: 0 !important;
+  
+ 
+  cursor: pointer;
+}
+
+button:hover {
+  background: #FF6666;
+}
+
+button:active {
+  background: #FF7777;
+}

@@ -1,0 +1,26 @@
+/* Allcss/GameCard.css */
+
+.game-grid {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  justify-content: space-between; /* Distribute space between cards */
+  padding: 20px; /* Space around the grid */
+}
+
+.game-card {
+  flex: 1 1 300px; /* Flex-grow, flex-shrink, and base width */
+  max-width: 300px; /* Max width for each card */
+  margin: 10px; /* Margin between cards */
+  height: 193px; /* Fixed height for the card */
+  background-color: rgba(0, 0, 0, 0.7); /* Optional: background color for better text visibility */
+  color: #fff; /* Text color */
+  border-radius: 8px; /* Optional: rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow for depth */
+  position: relative; /* Allows absolute positioning of child elements */
+}
+
+/* Optional: Add hover effect */
+.game-card:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  transition: transform 0.3s; /* Smooth transition */
+}

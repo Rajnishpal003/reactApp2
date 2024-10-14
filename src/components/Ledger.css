@@ -1,0 +1,27 @@
+/* src/App.css */
+
+
+.text_dec {
+  color: red;
+}
+
+.text_gree {
+  color: green;
+}
+
+.class_payment {
+  display: none;
+}
+
+table tr td {
+  font-size: 12px;
+}
+
+.md-card {
+  margin-bottom: 20px;
+  background: #fff; /* You can adjust this to match your design */
+}
+
+.uk-table-striped tbody tr:nth-child(odd) {
+  background-color: #f9f9f9; /* Light grey for odd rows */
+}

@@ -1,0 +1,27 @@
+/* src/components/Marquee.css */
+
+.marquee-container {
+  height: 40px;
+  background: burlywood;
+  overflow: hidden; /* Hide overflow */
+  position: relative;
+}
+
+.marquee {
+  white-space: nowrap; /* Prevent line breaks */
+  display: inline-block; /* Inline block for marquee effect */
+  animation: marquee 10s linear infinite; /* Animation settings */
+  color: #000; /* Text color */
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+/* Keyframes for the marquee animation */
+@keyframes marquee {
+  0% {
+      transform: translateX(100%); /* Start from the right */
+  }
+  100% {
+      transform: translateX(-100%); /* Move to the left */
+  }
+}

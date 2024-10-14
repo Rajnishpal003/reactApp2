@@ -1,0 +1,52 @@
+.card-container {
+  background: rgb(59, 62, 98);
+  position: absolute;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  top: 0px;
+  left: 0px;
+  opacity: 1;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  padding-top: 10px;
+  width: 33.333%;
+
+}
+
+.button {
+  border-radius: 4px;
+  text-align: center;
+  position: relative;
+  font-family: ExoLight;
+  font-size: 1.4em;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  color: #fdfdfd;
+  border: none;
+  background: url(https://bombaymatka.in/PWFButton.png) 0/100% 100% no-repeat;
+  padding: 3% 0;
+  width: 50%;
+  margin-top: 0;
+}
+
+.button-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.title {
+  color: #fff;
+  font-family: Exo, sans-serif;
+  font-size: 1.7em;
+  margin-top: 15px;
+}
+
+.info {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
